@@ -1,0 +1,14 @@
+{
+  "name": "shopwow-website",
+  "version": "1.0.0",
+  "description": "ShopWow storefront with backend checkout, inventory, user authentication, and order processing.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.4",
+    "stripe": "^12.18.0"
+  }
+}
